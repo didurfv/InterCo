@@ -69,7 +69,7 @@ button {
 
 .container-about {
   height: 900px;
-  background: url(/img/belveder1.jpg) center/cover no-repeat;
+  background: url(img/belveder1.jpg) center/cover no-repeat;
   z-index: 1;
 }
 
