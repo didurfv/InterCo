@@ -1293,7 +1293,7 @@ hr {
 
 @supports (-webkit-appearance:none) {
   .container-about {
-    background: url(../img/belveder1.webp) center/cover no-repeat;
+    background: url(img/belveder1.webp) center/cover no-repeat;
   }
 
   .carousel-control-prev-icon {
