@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>InterCo</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- ___HEADER___ -->
+    <header id="header">
+    <div class="header container">
+        <div class="container-head">
+            <div class="header-logo">
+                <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.jpg" alt="logo_img" class="header_img"></picture>
+            </div>
+            <div class="header-title">
+
+                <!-- Меню кнопок -->
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="#services" data-after="Про нас">Про нас</a></li>
+                        <li><a href="#advantages" data-after="Переваги">Переваги</a></li>
+                        <li><a href="#prices" data-after="Ціни">Ціни</a></li>
+                        <li><a href="#objects" data-after="Об'єкти">Об'єкти</a></li>
+                        <li><a href="#partnership" data-after="Співпраця">Співпраця</a></li>
+                        <hr>
+                    </ul>
+                </div>
+                <!--  -->
+                <h3>Якісний ремонт квартир і будинків в Києві та
+                    Київській області.<br>
+                    Втілюй свою мрію разом із професіоналами!</h3>
+            </div>
+            <div class="header-contact">
+                <div class="button-wrapper">
+                    <button name="btnCall" type="menu" class="btn btn-call" id="formShow">
+                        <span class="btn-text">Замовити дзвінок</span>
+                    </button>
+                </div>
+                <div class="header-number">
+                    <h4>+38(068) 083-20-68</h4>
+                    <h4>+38(095) 322-71-89</h4>
+                </div>
+                <div id="social-item" style="width: 100%; height: 30px;">
+                    <picture><source srcset="./img/icons-teleg2.webp" type="image/webp"><img src="./img/icons-teleg2.png" alt="icon"></picture>
+                    <picture><source srcset="./img/icons-whatsapp2.webp" type="image/webp"><img src="./img/icons-whatsapp2.png" alt="icon"></picture>
+                    <picture><source srcset="./img/icons-viber2.webp" type="image/webp"><img src="./img/icons-viber2.png" alt="icon"></picture>
+                </div>
+            </div>
+            <div id="hamburger">
+                <div class="bar"></div>
+            </div>
+        </div>
+</div></header>
+
+    <!-- ___MAIN PAGE___ -->
+    <main>
+        <section id="about">
+    <div class="about container">
+        <div class="container-about">
+            <div class="about-main">
+                <div class="about-text">
+                    <p class="about-title">ПОВНИЙ СПЕКТР ФАСАДНИХ і РЕМОНТНИХ РОБІТ в КИЄВІ та ОБЛАСТІ
+                    </p><p>
+                    </p><ul class="about-point" style="padding-left: 0px;">
+                        <li>Безкоштовна консультація</li>
+                        <li>Виїзд спеціаліста</li>
+                        <li>Підбір матеріалів та обладнання</li>
+                        <li>Детальний розрахунок вартості</li>
+                        <li>Поетапна оплата</li>
+                        <li>Гарантія 5 років</li>
+                    </ul>
+                </div>
+                <div class="about-form">
+                    <div class="about-form-title">
+                        <p>ЗАМОВИТИ КОНСУЛЬТАЦІЮ<br>
+                            Наші спеціалісти зв'яжуться з Вами найближчим часом</p>
+                    </div>
+                    <div class="about-form-menu">
+                        <form action="#" class="modal-form" data-netlify="true" id="form2" method="post" autocomplete="on">
+                            <label for="firstname2">Ваше ім'я <span style="color: red;">*</span></label><br>
+                            <input type="text" placeholder="Ім'я" name="firstname2" id="firstname2" required autocomplete>
+                            <label for="phone2">Ваш номер телефону <span style="color: red;">*</span></label><br>
+                            <input type="tel" id="phone2" name="phone2" placeholder="+38 (0XX) XXX-XX-XX" maxlength="19" minlength="10" required autocomplete data-error-message="Введіть коректний номер телефону"><br>
+                            <label for="message2">Ваше повідомлення:</label><br>
+                            <textarea id="message2" name="message2" rows="3"></textarea>
+                            <div class="button-wrapper">
+                                <button name="btnCall" type="submit" class="btn btn-call" form="form2" formmethod="post" formtarget="_self" id="btn-submit">
+                                    <span class="btn-text">Надіслати</span>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="services">
+    <div class="container">
+        <div class="services-container">
+            <div class="services-title">
+                <h2>З 2016 року реалізували 289 ремонтів різного типу та складності,<br>
+                з них 94 "під ключ"</h2>
+                <h3>Наша команда спеціалізується на таких роботах:</h3>
+            </div>
+            <div class="services-main">
+                <!-- 1ий ел-нт -->
+                <div class="item1">
+                    <div class="services-subtitle">
+                        <h2>Проектування та дизайн</h2>
+                    </div>
+                </div>
+                <!-- 2ий ел-нт -->
+                <div class="item2">
+                    <div class="services-subtitle">
+                        <h2>Ремонт квартир та будинків</h2>
+                    </div>
+                </div>
+                <!-- 3ий ел-нт -->
+                <div class="item3">
+                    <div class="services-subtitle">
+                        <h2>Фасадні роботи</h2>
+                    </div>
+                </div>
+                <!-- 4ий ел-нт -->
+                <div class="item4">
+                    <div class="services-subtitle">
+                        <h2>Будівництво "під ключ"</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+        <section id="advantages">
+    <div class="container">
+        <div class="advantages-container">
+            <div class="advantages-title">
+                <h2>Обираючи нашу команду Ви отримаєте</h2>
+            </div>
+            <div class="advantages-main">
+                <!-- 1ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon5.webp" type="image/webp"><img src="./img/icon5.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Детальний кошторис</p>
+                        <p class="discription">Складаємо кошторис з усіма матеріалами та роботами. Чітко відстежуємо бюджет проекту</p>
+                    </div>
+                </div>
+                <!-- 2ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon4.webp" type="image/webp"><img src="./img/icon4.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Оптові ціни</p>
+                        <p class="discription">Перевірені постачальники та власне обладнання, дають можливість заощадити на матеріалах і роботах</p>
+                    </div>
+                </div>
+                <!-- 3ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon3.webp" type="image/webp"><img src="./img/icon3.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Чіткі терміни</p>
+                        <p class="discription">Виконуємо роботу чітко за графіком та в обумовлені терміни. Строки по кожному етапу робут прописуємо в договорі</p>
+                    </div>
+                </div>
+                <!-- 4ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon9.webp" type="image/webp"><img src="./img/icon9.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Високоякісні спеціалісти</p>
+                        <p class="discription">Перевірені будівельні бригади майстрів, громадяни України. Кожен етап – філігранно вивірений крок</p>
+                    </div>
+                </div>
+                <!-- 5ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon2.webp" type="image/webp"><img src="./img/icon2.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Технічний нагляд</p>
+                        <p class="discription">Чіткий контроль протягом всіх робіт, з постійним звітуванням. За кожним об'єктом закріплений менеджер</p>
+                    </div>
+                </div>
+                <!-- 6ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon8.webp" type="image/webp"><img src="./img/icon8.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Швидкість</p>
+                        <p class="discription">Досвідчені майстри виконають роботу за лічені дні. Ремонт 100 м2 за 60 днів – це реальність</p>
+                    </div>
+                </div>
+                <!-- 7ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon7.webp" type="image/webp"><img src="./img/icon7.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Поетапна оплата</p>
+                        <p class="discription">Графік фінансування прописуємо в договорі, та Ви оплачуєте лише фактично виконані роботи</p>
+                    </div>
+                </div>
+                <!-- 8ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon6.webp" type="image/webp"><img src="./img/icon6.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Чистота та порядок</p>
+                        <p class="discription">Щоденні прибирання на об'єкті. Приїжджаючи до себе, Ви не будете перейматися за купи сміття та безлад</p>
+                    </div>
+                </div>
+                <!-- 9ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon1.webp" type="image/webp"><img src="./img/icon1.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Гарантія до 5 років</p>
+                        <p class="discription">Наш досвід дозволяє впевнено гаарнтувати якість протягом багатьох років. Будь-які недоліки виправимо за власний рахунок</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+</div></section>
+        <section id="prices">
+    <div class="container">
+        <div class="prices-container">
+            <div class="prices-title">
+                <h2>Вартість ремонту</h2>
+                <h3>Ми підготували для вас комплексні рішення, щоб Ви могли зорієнтуватися у цінах та переліку робіт
+                </h3>
+            </div>
+            <!-- РЕМОНТ -->
+            <div class="prices-main">
+                <!-- 1ий ел-нт -->
+                <div class="prices-item">
+                    <div class="prices-image">
+                        <picture><source srcset="./img/berezhanskiy11.webp" type="image/webp"><img src="./img/berezhanskiy11.jpg" alt="image"></picture>
+                    </div>
+                    <div class="prices-text">
+                        <h2>Косметичний</h2>
+                        <h2>від 100 у.о./м.кв.</h2>
+                        <hr>
+                        <ul>
+                            <li>Чорнове опорядження</li>
+                            <li>Чистове опорядження</li>
+                            <li>Електрика</li>
+                            <li>Сантехніка</li>
+                            <li>Двері міжкімнатні</li>
+                            <li>Прибирання</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 2ий ел-нт -->
+                <div class="prices-item">
+                    <div class="prices-image">
+                        <picture><source srcset="./img/berezhanskiy13.webp" type="image/webp"><img src="./img/berezhanskiy13.jpg" alt="image"></picture>
+                    </div>
+                    <div class="prices-text">
+                        <h2>Середній</h2>
+                        <h2>від 120 у.о./м.кв.</h2>
+                        <hr>
+                        <ul>
+                            <li>Перепланування</li>
+                            <li>Чорнове опорядження</li>
+                            <li>Чистове опорядження</li>
+                            <li>Електрика</li>
+                            <li>Сантехніка + Бойлер</li>
+                            <li>Двері міжкімнатні</li>
+                            <li>Кухонний гарнітур</li>
+                            <li>Клінінг</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 3ий ел-нт -->
+                <div class="prices-item">
+                    <div class="prices-image">
+                        <picture><source srcset="./img/belveder7.webp" type="image/webp"><img src="./img/belveder7.jpg" alt="image"></picture>
+                    </div>
+                    <div class="prices-text">
+                        <h2>Капітальний</h2>
+                        <h2>від 150 у.о./м.кв.</h2>
+                        <hr>
+                        <ul>
+                            <li>Дизайн-проект</li>
+                            <li>Перепланування</li>
+                            <li>Чорнове опорядження</li>
+                            <li>Чистове опорядження</li>
+                            <li>Дизайнерське оздоблення</li>
+                            <li>Електрика</li>
+                            <li>Інсталяція + Сантехніка + Бойлер</li>
+                            <li>Двері міжкімнатні</li>
+                            <li>Кухонний гарнітур + Техніка</li>
+                            <li>Вентиляція + Кондиціонер</li>
+                            <li>Штори</li>
+                            <li>Клінінг</li>
+                            <li>Авторський нагляд</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 4ий ел-нт -->
+                <div class="prices-item">
+                    <div class="prices-image">
+                        <picture><source srcset="./img/comfort_town1.webp" type="image/webp"><img src="./img/comfort_town1.jpg" alt="image"></picture>
+                    </div>
+                    <div class="prices-text">
+                        <h2>Дизайнерський</h2>
+                        <h2>від 180 у.о./м.кв.</h2>
+                        <hr>
+                        <ul>
+                            <li>Дизайн-проект</li>
+                            <li>Перепланування</li>
+                            <li>Чорнове опорядження</li>
+                            <li>Чистове опорядження</li>
+                            <li>Дизайнерське оздоблення</li>
+                            <li>Електрика</li>
+                            <li>Інсталяція + Сантехніка + Бойлер</li>
+                            <li>Двері міжкімнатні</li>
+                            <li>Кухонний гарнітур + Техніка</li>
+                            <li>Вентиляція + Кондиціонер</li>
+                            <li>Меблі</li>
+                            <li>Штори</li>
+                            <li>Клінінг</li>
+                            <li>Авторський нагляд</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- ФАСАД -->
+            <div class="prices-item5">
+                <div class="prices-subtitle">
+                    <h2>Фасадні роботи</h2>
+                    <h3>Наявність матеріальної бази та досвідчених фахівців дозволяють реалізувати будь-який вид фасаду
+                        висотністю до 5-ти поверхів</h3>
+                </div>
+                <div class="prices-fasad">
+                <!-- ФАСАД: 1ий ел-нт -->
+                    <div class="prices-fasad-item">
+                        <div class="prices-image5">
+                            <picture><source srcset="./img/fasad1.webp" type="image/webp"><img src="./img/fasad1.jpg" alt="image"></picture>
+                        </div>
+                        <div class="prices-text">
+                            <h2>Фасад "штукатурний"</h2>
+                            <h2>від 18 у.о./м.кв.</h2>
+                        </div>
+                    </div>
+                    <!-- ФАСАД: 2ий ел-нт -->
+                    <div class="prices-fasad-item">
+                        <div class="prices-image5">
+                            <picture><source srcset="./img/fasad2.webp" type="image/webp"><img src="./img/fasad2.jpg" alt="image"></picture>
+                        </div>
+                        <div class="prices-text">
+                            <h2>Фасад "вентильований"</h2>
+                            <h2>від 20 у.о./м.кв.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="objects">
+    <div class="container">
+
+        <div class="prices-title">
+            <h2>Нещодавні роботи</h2>
+        </div>
+
+        <!-- carousel 1 + 2 + 3 -->
+        <div class="row">
+            <!-- slider-1 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Київ, ЖК "ЦЕНТРАЛ ПАРК"</p>
+
+                    <div id="carousel-2" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-2" data-slide-to="2"></li>
+                            <li data-target="#carousel-2" data-slide-to="3"></li>
+                            <li data-target="#carousel-2" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/central_park1.webp" type="image/webp"><img class="d-block img-fluid" src="./img/central_park1.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/central_park2.webp" type="image/webp"><img class="d-block img-fluid" src="./img/central_park2.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/central_park3.webp" type="image/webp"><img class="d-block img-fluid" src="./img/central_park3.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/central_park4.webp" type="image/webp"><img class="d-block img-fluid" src="./img/central_park4.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/central_park7.webp" type="image/webp"><img class="d-block img-fluid" src="./img/central_park7.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                    </div><!-- e carousel -->
+                </div>
+            </div>
+            <!-- slider-2 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Київ, "BELVEDER-CITY"</p>
+
+                    <div id="carousel-1" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-1" data-slide-to="1"></li>
+                            <li data-target="#carousel-1" data-slide-to="2"></li>
+                            <li data-target="#carousel-1" data-slide-to="3"></li>
+                            <li data-target="#carousel-1" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/belveder2.webp" type="image/webp"><img class="d-block img-fluid" src="./img/belveder2.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/belveder3.webp" type="image/webp"><img class="d-block img-fluid" src="./img/belveder3.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/belveder8.webp" type="image/webp"><img class="d-block img-fluid" src="./img/belveder8.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/belveder9.webp" type="image/webp"><img class="d-block img-fluid" src="./img/belveder9.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/belveder13.webp" type="image/webp"><img class="d-block img-fluid" src="./img/belveder13.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                    </div><!-- e carousel -->
+
+                </div>
+            </div>
+            <!-- slider-3 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Київ, ЖК "КОМФОРТ ТАУН"</p>
+
+                    <div id="carousel-3" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-3" data-slide-to="1"></li>
+                            <li data-target="#carousel-3" data-slide-to="2"></li>
+                            <li data-target="#carousel-3" data-slide-to="3"></li>
+                            <li data-target="#carousel-3" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/comfort_town1.webp" type="image/webp"><img class="d-block img-fluid" src="./img/comfort_town1.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/comfort_town0.webp" type="image/webp"><img class="d-block img-fluid" src="./img/comfort_town0.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/comfort_town2.webp" type="image/webp"><img class="d-block img-fluid" src="./img/comfort_town2.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/comfort_town3.webp" type="image/webp"><img class="d-block img-fluid" src="./img/comfort_town3.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/comfort_town4.webp" type="image/webp"><img class="d-block img-fluid" src="./img/comfort_town4.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">prev</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">next</span>
+                        </a>
+
+                    </div><!-- e carousel -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- slider-4 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Київ, ЖК "БЕРЕЖАНСЬКИЙ"</p>
+
+                    <div id="carousel-4" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-4" data-slide-to="1"></li>
+                            <li data-target="#carousel-4" data-slide-to="2"></li>
+                            <li data-target="#carousel-4" data-slide-to="3"></li>
+                            <li data-target="#carousel-4" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/berezhanskiy19.webp" type="image/webp"><img class="d-block img-fluid" src="./img/berezhanskiy19.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/berezhanskiy22.webp" type="image/webp"><img class="d-block img-fluid" src="./img/berezhanskiy22.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/berezhanskiy5.webp" type="image/webp"><img class="d-block img-fluid" src="./img/berezhanskiy5.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/berezhanskiy9.webp" type="image/webp"><img class="d-block img-fluid" src="./img/berezhanskiy9.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/berezhanskiy12.webp" type="image/webp"><img class="d-block img-fluid" src="./img/berezhanskiy12.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                    </div><!-- e carousel -->
+
+                </div>
+            </div>
+            <!-- slider-5 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Київ, ЖК "ГРЮНВАЛЬД"</p>
+
+                    <div id="carousel-5" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-5" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-5" data-slide-to="1"></li>
+                            <li data-target="#carousel-5" data-slide-to="2"></li>
+                            <li data-target="#carousel-5" data-slide-to="3"></li>
+                            <li data-target="#carousel-5" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/grunvald5.webp" type="image/webp"><img class="d-block img-fluid" src="./img/grunvald5.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/grunvald2.webp" type="image/webp"><img class="d-block img-fluid" src="./img/grunvald2.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/grunvald3.webp" type="image/webp"><img class="d-block img-fluid" src="./img/grunvald3.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/grunvald4.webp" type="image/webp"><img class="d-block img-fluid" src="./img/grunvald4.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/grunvald1.webp" type="image/webp"><img class="d-block img-fluid" src="./img/grunvald1.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-5" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-5" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                    </div><!-- e carousel -->
+                </div>
+            </div>
+            <!-- slider-6 -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="row-name">
+                    <p>Софіївська Борщагівка, КБ "ОЛІМПІЯ"</p>
+
+                    <div id="carousel-6" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-6" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-6" data-slide-to="1"></li>
+                            <li data-target="#carousel-6" data-slide-to="2"></li>
+                            <li data-target="#carousel-6" data-slide-to="3"></li>
+                            <li data-target="#carousel-6" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <picture><source srcset="./img/sofievskaya3.webp" type="image/webp"><img class="d-block img-fluid" src="./img/sofievskaya3.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/sofievskaya4.webp" type="image/webp"><img class="d-block img-fluid" src="./img/sofievskaya4.jpg" alt="slide"></picture>
+                            </div>
+
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/sofievskaya5.webp" type="image/webp"><img class="d-block img-fluid" src="./img/sofievskaya5.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/sofievskaya1.webp" type="image/webp"><img class="d-block img-fluid" src="./img/sofievskaya1.jpg" alt="slide"></picture>
+                            </div>
+                            <div class="carousel-item">
+                                <picture><source srcset="./img/sofievskaya2.webp" type="image/webp"><img class="d-block img-fluid" src="./img/sofievskaya2.jpg" alt="slide"></picture>
+                            </div>
+
+                        </div><!-- e carousel-inner -->
+
+                        <a class="carousel-control-prev" href="#carousel-6" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-6" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+
+                    </div><!-- e carousel -->
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+        <section id="partnership">
+    <div class="container">
+        <div class="advantages-container">
+            <div class="advantages-title">
+                <h2>Як ми працюємо</h2>
+            </div>
+            <div class="advantages-main">
+                <!-- 1ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon5.webp" type="image/webp"><img src="./img/icon5.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Детальний кошторис</p>
+                        <p class="discription">Складаємо кошторис з усіма матеріалами та роботами. Чітко відстежуємо бюджет проекту</p>
+                    </div>
+                </div>
+                <!-- 2ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon4.webp" type="image/webp"><img src="./img/icon4.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Оптові ціни</p>
+                        <p class="discription">Перевірені постачальники та власне обладнання, дають можливість заощадити на матеріалах і роботах</p>
+                    </div>
+                </div>
+                <!-- 3ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon3.webp" type="image/webp"><img src="./img/icon3.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Чіткі терміни</p>
+                        <p class="discription">Виконуємо роботу чітко за графіком та в обумовлені терміни. Строки по кожному етапу робут прописуємо в договорі</p>
+                    </div>
+                </div>
+                <!-- 4ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon9.webp" type="image/webp"><img src="./img/icon9.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Високоякісні спеціалісти</p>
+                        <p class="discription">Перевірені будівельні бригади майстрів, громадяни України. Кожен етап – філігранно вивірений крок</p>
+                    </div>
+                </div>
+                <!-- 5ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon2.webp" type="image/webp"><img src="./img/icon2.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Технічний нагляд</p>
+                        <p class="discription">Чіткий контроль протягом всіх робіт, з постійним звітуванням. За кожним об'єктом закріплений менеджер</p>
+                    </div>
+                </div>
+                <!-- 6ий ел-нт -->
+                <div class="advantages">
+                    <picture><source srcset="./img/icon8.webp" type="image/webp"><img src="./img/icon8.png" alt="img" width="50px" height="50px"></picture>
+                    <div class="advantages-text">
+                        <p class="title">Швидкість</p>
+                        <p class="discription">Досвідчені майстри виконають роботу за лічені дні. Ремонт 100 м2 за 60 днів – це реальність</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+</div></section>
+    </main>
+
+    <!-- ___FOOTER___ -->
+    <footer id="header">
+    <div class="header container">
+        <div class="container-foot">
+            <div class="header-logo">
+                <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.jpg" alt="logo_img" class="header_img"></picture>
+            </div>
+            <div class="header-title">
+                <h3>Якісний ремонт квартир і будинків в Києві та Київській області.<br>
+                Співпрацюючи з нами, Ви можете бути спокійні за якість та строки</h3>
+            </div>
+            <div class="footer-contact">
+                <div class="button-wrapper">
+                    <button name="btnCall" type="menu" class="btn btn-call" id="formShow2">
+                        <span class="btn-text" id="order">Замовити дзвінок</span>
+                    </button>
+                </div>
+                <div class="header-number">
+                    <h4>+38(068) 083-20-68</h4>
+                    <h4>+38(095) 322-71-89</h4>
+                </div>
+            </div>
+        </div>
+</div></footer>
+
+    <!-- ___Pop-up___ -->
+        <!-- FORM 1-->
+
+    <div id="mainModal" class="modal">
+        <div id="registration-form">
+            <span class="close" id="closeForm">&times;</span>
+
+            <div class="fieldset">
+
+                <legend>
+                    <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.jpg" alt="logo" class="form_img"></picture>
+                    <h4 class="modal-form-title">ЗАМОВИТИ КОНСУЛЬТАЦІЮ</h4>
+                </legend>
+
+                <form action="#" id="form" class="form_body" method="post" autocomplete="on">
+                    <div>
+                        <label for="firstname">Ваше ім'я <span style="color: red;">*</span></label>
+                        <input type="text" placeholder="Ім'я" name="firstname" id="firstname" required autocomplete>
+                    </div>
+                    <div>
+                        <label for="phone">Ваш номер телефону <span style="color: red;">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+38 (0XX) XXX-XX-XX" maxlength="19" minlength="10" required autocomplete data-error-message="Введіть коректний номер телефону">
+                    </div>
+                    <div>
+                        <label for="email">E-mail </label>
+                        <input type="email" id="email" placeholder="E-mail" name="email" autocomplete data-error-message="Введіть коректну ел.пошту">
+                    </div>
+                    <div>
+                        <textarea class="modal-field-input" id="message" name="message" placeholder="Опишіть, що Вас цікавить" rows="6"></textarea>
+                    </div>
+                    <div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="agreement" id="formAgreement" class="checkbox_input" value="" checked="checked" required>
+                            <label for="formAgreement" class="checkbox_label">Ви даєте згоду на обробку даних</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="btn-submit">Надіслати</button>
+
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- FORM 2-->
+    <div id="successModal" class="modal">
+        <div id="success-form">
+            <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.jpg" alt="logo"></picture>
+            <h4>Дякуємо, інформацію надіслано</h4>
+        </div>
+    </div>
+
+    <!-- POP UP ends -->
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+
+    <!-- slideshow -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
