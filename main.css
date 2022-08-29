@@ -1,4 +1,25 @@
 @charset "UTF-8";
+:root {
+  /* Colors */
+  --main: #192436;
+  --primaryDark: #010d14;
+  --primary: rgb(192, 108, 56);
+  --secondary: rgb(241, 135, 69);
+  --neutral: #08699e;
+  --neutralLight: rgb(221, 230, 239);
+  --white: #fff;
+  --black: #222121;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+body.locked {
+  overflow: hidden;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -12,15 +33,6 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-body {
-  font-family: var(--fontMain);
-  font-style: normal;
-}
-
-body.locked {
-  overflow: hidden;
 }
 
 h3 {
@@ -57,7 +69,7 @@ button {
 
 .container-about {
   height: 900px;
-  background: url(../img/belveder1.jpg) center/cover no-repeat;
+  background: url(img/belveder1.jpg) center/cover no-repeat;
   z-index: 1;
 }
 
