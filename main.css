@@ -1302,6 +1302,10 @@ hr {
   .item4 {
     background: url(img/item4.webp) top/cover no-repeat;
   }
+  
+  #prices li {
+  list-style: url(img/check.webp);
+  }
 }
 
 @media (min-width: 576px) {
