@@ -1007,7 +1007,7 @@ hr {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(27, 29, 31, 0.7) url("../img/spinner.gif") center/50px no-repeat;
+  background: rgba(27, 29, 31, 0.7) url("img/spinner.gif") center/50px no-repeat;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease 0s;
@@ -1125,7 +1125,7 @@ hr {
 }
 
 #prices li {
-  list-style: url(../img/check.png);
+  list-style: url(img/check.png);
   color: var(--black);
   font-size: 1.2em;
   font-weight: 500;
@@ -1226,19 +1226,19 @@ hr {
 }
 
 .item1 {
-  background: url(../img/design.jpg) bottom center/cover no-repeat;
+  background: url(img/design.jpg) bottom center/cover no-repeat;
 }
 
 .item2 {
-  background: url(../img/belveder6.jpg) bottom center/cover no-repeat;
+  background: url(img/belveder6.jpg) bottom center/cover no-repeat;
 }
 
 .item3 {
-  background: url(../img/sofievskaya.jpg) bottom center/cover no-repeat;
+  background: url(img/sofievskaya.jpg) bottom center/cover no-repeat;
 }
 
 .item4 {
-  background: url(../img/item4.jpg) top/cover no-repeat;
+  background: url(img/item4.jpg) top/cover no-repeat;
 }
 
 .services-subtitle {
@@ -1270,27 +1270,6 @@ hr {
   font-size: 1.6rem;
 }
 
-/* ____Здесь ПЕРЕМЕННЫЕ, которые использую в стилях___*/
-
-:root {
-  --breakpoint1450: 1449.98 + px;
-  --breakpoint1200: 1199.98 + px;
-  --breakpoint992: 991.98 + px;
-  --breakpoint660: 659.98 + px;
-  --breakpoint480: 479.98 + px;
-  --breakpoint375: 374.98 + px;
-  --main: #192436;
-  --primaryDark: #010d14;
-  --primary: rgb(192, 108, 56);
-  --secondary: rgb(241, 135, 69);
-  --neutral: #08699e;
-  --neutralLight: rgb(221, 230, 239);
-  --white: #fff;
-  --black: #222121;
-  --fontMain: "Roboto", sans-serif;
-  --fontSecond: ;
-}
-
 @supports (-webkit-appearance:none) {
   .container-about {
     background: url(img/belveder1.webp) center/cover no-repeat;
@@ -1305,23 +1284,23 @@ hr {
   }
 
   .form_body::after {
-    background: rgba(27, 29, 31, 0.7) url("../img/spinner.gif") center/50px no-repeat;
+    background: rgba(27, 29, 31, 0.7) url("img/spinner.gif") center/50px no-repeat;
   }
 
   .item1 {
-    background: url(../img/design.webp) bottom center/cover no-repeat;
+    background: url(img/design.webp) bottom center/cover no-repeat;
   }
 
   .item2 {
-    background: url(../img/belveder6.webp) bottom center/cover no-repeat;
+    background: url(img/belveder6.webp) bottom center/cover no-repeat;
   }
 
   .item3 {
-    background: url(../img/sofievskaya.webp) bottom center/cover no-repeat;
+    background: url(img/sofievskaya.webp) bottom center/cover no-repeat;
   }
 
   .item4 {
-    background: url(../img/item4.webp) top/cover no-repeat;
+    background: url(img/item4.webp) top/cover no-repeat;
   }
 }
 
